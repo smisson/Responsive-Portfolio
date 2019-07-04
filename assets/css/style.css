@@ -10,6 +10,31 @@ body {
   box-sizing: border-box;
 }
 
+/* On screens that are 980px or less and turns the color to lightcoral*/
+@media screen and (max-width: 980px) {
+  body {
+    background: lightcoral;
+    max-width: 980px;
+  }
+}
+
+/* On screens that are 768px or less and turns the color to lightseagreen */
+@media screen and (max-width: 768px) {
+  body {
+    background: lightseagreen;
+    max-width: 768px;
+  }
+}
+
+/* On screens that are 640px or less and turns the color wo lightgoldenrodyellow */
+@media screen and (max-width: 640px) {
+  body {
+    background: lightgoldenrodyellow;
+    max-width: 640px;
+  }
+}
+
+
 /* general */
 
 .container {
@@ -130,7 +155,7 @@ h3, h2 {
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #ffffff;
+  background: lightblue;
   border: 1px solid #dddddd;
 }
 
